@@ -53,29 +53,39 @@ Start playing and enjoy the tunes!
 
 #### Move one event ahead or back
 
-`$ php deck forward
-$ php deck back`
+`$ php deck forward`
+
+`$ php deck back`
 
 #### Move multiple events
 
-`$ php deck forward --steps="5"
-$ php deck back --steps="5"`
+`$ php deck forward --steps="5"`
+
+`$ php deck back --steps="5"`
 
 This is the same as:
 
-`$ php deck forward --steps="events:5"
-$ php deck back --steps="events:5"`
+`$ php deck forward --steps="events:5"`
+
+`$ php deck back --steps="events:5"`
 
 #### Using time intervals
 
-`$ php deck back --steps="milliseconds:5"
-$ php deck back --steps="seconds:5"
-$ php deck back --steps="minutes:5"
-$ php deck back --steps="hours:5"
-$ php deck back --steps="days:5"
-$ php deck back --steps="weeks:5"
-$ php deck back --steps="months:5"
-$ php deck back --steps="years:5"`
+`$ php deck back --steps="milliseconds:5"`
+
+`$ php deck back --steps="seconds:5"`
+
+`$ php deck back --steps="minutes:5"`
+
+`$ php deck back --steps="hours:5"`
+
+`$ php deck back --steps="days:5"`
+
+`$ php deck back --steps="weeks:5"`
+
+`$ php deck back --steps="months:5"`
+
+`$ php deck back --steps="years:5"`
 
 
 
