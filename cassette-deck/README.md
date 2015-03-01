@@ -140,4 +140,4 @@ $deck->back(3, "years");
 
 ## Source code changes
 
-If your event store specifies a source code version in the Event Store, the Deck ask permission whenever you try to move before a version change. This will allow you to move back to the appropriate commit before rewinding further.
+If your event store specifies a source code version in the Event Store, the Deck ask permission whenever you try to move beyond a version change. This will allow you to move back or forth to the appropriate commit before rewinding further.
