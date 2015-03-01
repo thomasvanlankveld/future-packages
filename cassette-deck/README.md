@@ -43,6 +43,10 @@ Start playing and enjoy the tunes!
 
 `$ php deck fast-forward`
 
+#### Go to a specific point in time
+
+`$ php deck go-to "2012-07-08 11:14:15.638276"`
+
 #### Show deck time
 
 `$ php deck time`
@@ -105,6 +109,12 @@ $deck->rewind();
 $deck->fastForward();
 ```
 
+#### Go to a specific point in time
+
+```php
+$deck->goTo("2012-07-08 11:14:15.638276");
+```
+
 #### Move one event ahead or back
 
 ```php
@@ -140,4 +150,4 @@ $deck->back(3, "years");
 
 ## Source code changes
 
-If your event store specifies a source code version in the Event Store, the Deck ask permission whenever you try to move beyond a version change. This will allow you to move back or forth to the appropriate commit before rewinding further.
+If your event store specifies a source code version in the Event Store, the Deck ask permission whenever you try to move beyond a version change. This will allow you to run tasks like switching to another commit or running database migrations before moving further.
